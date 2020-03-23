@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Class="Anexinet.MainPage"
+    Title="Anexinet">
+    <StackLayout>
+        <Button
+            Text="Exercise #1"
+            Command="{Binding NumberOneCommand}"/>
+        <Button
+            Text="Exercise #2"
+            Command="{Binding NumberTwoCommand}"/>
+        <Button
+            Text="Exercise #3"
+            Command="{Binding NumberThreeCommand}"/>
+        <Button
+            Text="Exercise #4"
+            Command="{Binding NumberFourCommand}"/>
+        <!--<Button
+            Text="Exercise #5"
+            Command="{Binding NumberFiveCommand}"/>-->
+        <Button
+            Text="Exercise #6"
+            Command="{Binding NumberSixCommand}"/>
+        <!--<Button
+            Text="Exercise #7"
+            Command="{Binding NumberSevenCommand}"/>-->
+    </StackLayout>
+</ContentPage>

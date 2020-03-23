@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Anexinet.Views.Exercises.ExerciseThreePage"
+    Title="Exercise #3">
+    <ContentPage.Content>
+        <StackLayout
+            Margin="20">
+            <Label
+                FontAttributes="Bold"
+                Text="Add strings separated by commas. I will print them in a rectangle frame" />
+            <Entry
+                Text="{Binding Elements}"/>
+            <Label
+                x:Name="TheText"
+                Text="{Binding Result}"
+                TextColor="Black"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
